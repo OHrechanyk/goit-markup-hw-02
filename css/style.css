@@ -1,0 +1,148 @@
+:root {
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
+  --backgruond-color: #e5e5e5;
+  --footer-bg-color: #2f303a;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: var(--backgruond-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03;
+  font-size: 14px;
+}
+
+.section {
+  color: var(--text-color);
+}
+.section-title {
+  color: var(--title-color);
+}
+
+/* Logo  */
+.logo {
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.site-nav {
+  color: var(--title-color);
+}
+.nav {
+  color: var(--title-color);
+}
+
+.site-nav .nav:focus,
+.site-nav .nav:hover {
+  color: var(--accent-color);
+}
+/* студия */
+.studio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/*Портфолио*/
+.portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+/* Контакты навигации */
+.cont {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/* contacts */
+.contacts {
+  color: var(--text-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+.mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/* Hero tittle */
+.hero-tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* О нас */
+
+.tittle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.text {
+  line-height: 1.71;
+}
+
+/* Чем занимаемся */
+.work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Команда*/
+.team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.description-team {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* Footer */
+.adress {
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+}
+.mail-tel {
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+}
